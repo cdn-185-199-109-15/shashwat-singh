@@ -65,7 +65,7 @@
 
     <header>
         <!-- Change this image URL to your ethical hacker image -->
-        <img src="[https://i.ibb.co/mzjJ7JY/ethical-hacker.jpg](https://media.istockphoto.com/id/958989154/photo/ethical-hacking-concept-with-faceless-hooded-male-person.jpg?s=2048x2048&w=is&k=20&c=Uq8vWJgDtyKRrCbqHGk9c-l2GzowRhNBSBSKaHuPeZE=)" alt="Ethical Hacker">
+        <img src="https://media.istockphoto.com/id/958989154/photo/ethical-hacking-concept-with-faceless-hooded-male-person.jpg?s=2048x2048&w=is&k=20&c=Uq8vWJgDtyKRrCbqHGk9c-l2GzowRhNBSBSKaHuPeZE=" alt="Ethical Hacker">
         <h1>Shashwat Singh</h1>
         <p>Cybersecurity Student | Penetration Tester | Ethical Hacker</p>
     </header>
