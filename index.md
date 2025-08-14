@@ -146,7 +146,7 @@
                     My focus is on securing systems, finding vulnerabilities, and building tools for 
                     the infosec community.
                 </p>
-                <a class="download-btn" href="#">📄 Download CV</a>
+                <a class="download-btn" href="SHASHWAT_SINGH_CV (1).pdf">📄 Download CV</a>
             </div>
 
             <div class="columns">
