@@ -1,37 +1,93 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Student & Penetration Tester</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #161b22;
+            padding: 20px;
+        }
+        header img {
+            max-width: 200px;
+            border-radius: 50%;
+            border: 3px solid #58a6ff;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-top: 10px;
+        }
+        p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.1em;
+            color: #8b949e;
+        }
+        .tools {
+            margin: 40px auto;
+            max-width: 800px;
+        }
+        .tool {
+            background-color: #161b22;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+            text-align: left;
+        }
+        .tool h2 {
+            color: #58a6ff;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin: 40px 0 20px;
+            font-size: 0.9em;
+            color: #8b949e;
+        }
+    </style>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/shashwt01singh/jaka/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <header>
+        <!-- Change this image URL to your ethical hacker image -->
+        <img src="https://i.ibb.co/mzjJ7JY/ethical-hacker.jpg" alt="Ethical Hacker">
+        <h1>Shashwat Singh</h1>
+        <p>Cybersecurity Student | Penetration Tester | Ethical Hacker</p>
+    </header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="tools">
+        <div class="tool">
+            <h2><a href="tool1-link">Tool 1 - Vulnerability Scanner</a></h2>
+            <p>A custom Python tool for scanning and reporting vulnerabilities in web applications.</p>
+        </div>
+        <div class="tool">
+            <h2><a href="tool2-link">Tool 2 - SQL Injection Tester</a></h2>
+            <p>Automates SQL injection checks with customizable payloads for ethical testing.</p>
+        </div>
+        <div class="tool">
+            <h2><a href="tool3-link">Tool 3 - Network Recon Suite</a></h2>
+            <p>Performs DNS lookups, port scanning, and subdomain enumeration.</p>
+        </div>
+    </section>
 
-### Markdown
+    <footer>
+        &copy; 2025 Shashwat Singh | Built with ❤️ for the cybersecurity community
+    </footer>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shashwt01singh/jaka/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
