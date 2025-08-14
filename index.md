@@ -7,14 +7,14 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0d1117;
+            background-color: #000000; /* Pure black background */
             color: #c9d1d9;
             margin: 0;
             padding: 0;
             text-align: center;
         }
         header {
-            background-color: #161b22;
+            background-color: #000000; /* Black header */
             padding: 20px;
         }
         header img {
@@ -37,7 +37,7 @@
             max-width: 800px;
         }
         .tool {
-            background-color: #161b22;
+            background-color: #0d0d0d; /* Slightly lighter than black for contrast */
             margin: 15px;
             padding: 20px;
             border-radius: 10px;
@@ -91,3 +91,4 @@
 
 </body>
 </html>
+
