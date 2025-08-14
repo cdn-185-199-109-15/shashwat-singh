@@ -3,92 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Student & Penetration Tester</title>
+    <title>Cybersecurity Portfolio</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #000000; /* Pure black background */
-            color: #c9d1d9;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #062b24;
+            color: white;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 15px 40px;
+            color: black;
+        }
+        nav .logo {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
             margin: 0;
             padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px;
+            align-items: center;
+            background-color: #064d3b;
+        }
+        .profile-left {
+            flex: 1;
             text-align: center;
         }
-        header {
-            background-color: #000000; /* Black header */
-            padding: 20px;
-        }
-        header img {
-            max-width: 200px;
+        .profile-left img {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            border: 3px solid #58a6ff;
+            border: 3px solid white;
         }
-        h1 {
-            color: #58a6ff;
-            margin-top: 10px;
+        .profile-left h2 {
+            margin-top: 15px;
         }
-        p {
-            max-width: 600px;
-            margin: auto;
-            font-size: 1.1em;
-            color: #8b949e;
+        .social-icons {
+            margin-top: 15px;
         }
-        .tools {
-            margin: 40px auto;
-            max-width: 800px;
-        }
-        .tool {
-            background-color: #0d0d0d; /* Slightly lighter than black for contrast */
-            margin: 15px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
-            text-align: left;
-        }
-        .tool h2 {
-            color: #58a6ff;
-        }
-        a {
-            color: #58a6ff;
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.4em;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* About Section */
+        .profile-right {
+            flex: 2;
+            padding: 20px;
         }
-        footer {
-            margin: 40px 0 20px;
-            font-size: 0.9em;
-            color: #8b949e;
+        .about-me {
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            background-color: #222;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+        }
+        .column h3 {
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
         }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <header>
-        <!-- Change this image URL to your ethical hacker image -->
-        <img src="https://media.istockphoto.com/id/958989154/photo/ethical-hacking-concept-with-faceless-hooded-male-person.jpg?s=2048x2048&w=is&k=20&c=Uq8vWJgDtyKRrCbqHGk9c-l2GzowRhNBSBSKaHuPeZE=" alt="Ethical Hacker">
-        <h1>Shashwat Singh</h1>
-        <p>Cybersecurity Student | Penetration Tester | Ethical Hacker</p>
-    </header>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Your Name</div>
+        <ul>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Papers</a></li>
+            <li><a href="#">Talks</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Teaching</a></li>
+        </ul>
+    </nav>
 
-    <section class="tools">
-        <div class="tool">
-            <h2><a href="tool1-link">Tool 1 - Vulnerability Scanner</a></h2>
-            <p>A custom Python tool for scanning and reporting vulnerabilities in web applications.</p>
+    <!-- Profile Section -->
+    <div class="profile-section">
+        <div class="profile-left">
+            <img src="https://i.ibb.co/mzjJ7JY/ethical-hacker.jpg" alt="Profile Image">
+            <h2>Shashwat Singh</h2>
+            <p>Cybersecurity Student | Penetration Tester</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
-        <div class="tool">
-            <h2><a href="tool2-link">Tool 2 - SQL Injection Tester</a></h2>
-            <p>Automates SQL injection checks with customizable payloads for ethical testing.</p>
-        </div>
-        <div class="tool">
-            <h2><a href="tool3-link">Tool 3 - Network Recon Suite</a></h2>
-            <p>Performs DNS lookups, port scanning, and subdomain enumeration.</p>
-        </div>
-    </section>
 
-    <footer>
-        &copy; 2025 Shashwat Singh | Built with ❤️ for the cybersecurity community
-    </footer>
+        <div class="profile-right">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate cybersecurity student and penetration tester with strong skills 
+                    in ethical hacking, vulnerability analysis, and security research. 
+                    My focus is on securing systems, finding vulnerabilities, and building tools for 
+                    the infosec community.
+                </p>
+                <a class="download-btn" href="#">📄 Download CV</a>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Penetration Testing</li>
+                        <li>Vulnerability Research</li>
+                        <li>Cybersecurity Tools Development</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>BSc in Cybersecurity - Example University</li>
+                        <li>Cert. in Ethical Hacking - Example Institute</li>
+                        <li>OSCP Certified</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
-
